@@ -1,13 +1,13 @@
 { "commands": [
-{ "hdr": "763", "rax": "7A3", "dbg": true, "cmd": {"22": "A012"}, "freq": 1,
+{ "hdr": "763", "rax": "7A3", "cmd": {"22": "A012"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_HVAC_EVAPORATOR_T_FRONT", "path": "Climate", "fmt": { "len": 16, "max": 655.25, "min": -20, "div": 10, "add": -20, "unit": "celsius" }, "name": "Evaporator temperature, front"}
   ]},
-{ "hdr": "763", "rax": "7A3", "dbg": true, "cmd": {"22": "A019"}, "freq": 1,
+{ "hdr": "763", "rax": "7A3", "cmd": {"22": "A019"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_HVAC_CABIN_T_FRONT", "path": "Climate", "fmt": { "len": 16, "max": 655.15, "min": -30, "div": 10, "add": -30, "unit": "celsius" }, "name": "Cabin temperature, front"}
   ]},
-{ "hdr": "76C", "rax": "7AC", "dbg": true, "cmd": {"22": "0210"}, "freq": 1,
+{ "hdr": "76C", "fcm1": true, "dbg": true, "cmd": {"22": "0210"}, "freq": 5,
   "signals": [
     {"id": "JOLIONHEV_TP_FL", "path": "Tires", "fmt": {           "len": 8, "max": 68.35, "mul": 137, "div": 100,             "unit": "kilopascal" }, "name": "Front left tire pressure",     "suggestedMetric": "frontLeftTirePressure"},
     {"id": "JOLIONHEV_TT_FL", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 205,                           "add": -50, "unit": "celsius"    }, "name": "Front left tire temperature",  "suggestedMetric": "frontLeftTireTemperature"},
@@ -18,46 +18,46 @@
     {"id": "JOLIONHEV_TP_RR", "path": "Tires", "fmt": {"bix": 48, "len": 8, "max": 68.35, "mul": 137, "div": 100,             "unit": "kilopascal" }, "name": "Rear right tire pressure",     "suggestedMetric": "rearRightTirePressure"},
     {"id": "JOLIONHEV_TT_RR", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 205,                           "add": -50, "unit": "celsius"    }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"}
   ]},
-{ "hdr": "782", "rax": "7C2", "dbg": true, "cmd": {"22": "6303"}, "freq": 1,
+{ "hdr": "782", "fcm1": true, "dbg": true, "cmd": {"22": "6303"}, "freq": 0.25,
   "signals": [
     {"id": "JOLIONHEV_WHEEL_SPEED_FL", "path": "Movement", "fmt": {           "len": 16, "max": 800, "mul": 156, "div": 10000, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "JOLIONHEV_WHEEL_SPEED_FR", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 800, "mul": 156, "div": 10000, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "JOLIONHEV_WHEEL_SPEED_RL", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 800, "mul": 156, "div": 10000, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "JOLIONHEV_WHEEL_SPEED_RR", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 800, "mul": 156, "div": 10000, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "787", "rax": "7C7", "dbg": true, "cmd": {"22": "1109"}, "freq": 1,
+{ "hdr": "787", "rax": "7C7", "cmd": {"22": "1109"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MCU_GMCU_MOTOR_T_1", "path": "Drivetrain", "fmt": { "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Motor temperature, GMCU"}
   ]},
-{ "hdr": "787", "rax": "7C7", "dbg": true, "cmd": {"22": "1110"}, "freq": 1,
+{ "hdr": "787", "rax": "7C7", "cmd": {"22": "1110"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MCU_GMCU_MOTOR_SPEED", "path": "Drivetrain", "fmt": { "len": 16, "max": 32767, "sign": true, "unit": "rpm" }, "name": "Motor speed, GMCU"}
   ]},
-{ "hdr": "787", "rax": "7C7", "dbg": true, "cmd": {"22": "1111"}, "freq": 1,
+{ "hdr": "787", "rax": "7C7", "cmd": {"22": "1111"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MCU_GMCU_MOTOR_T_2", "path": "Drivetrain", "fmt": { "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Motor winding temperature, GMCU"}
   ]},
-{ "hdr": "787", "rax": "7C7", "dbg": true, "cmd": {"22": "2108"}, "freq": 1,
+{ "hdr": "787", "rax": "7C7", "cmd": {"22": "2108"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MCU_TMCU_INVERTOR_T", "path": "Drivetrain", "fmt": { "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Inverter temperature"}
   ]},
-{ "hdr": "787", "rax": "7C7", "dbg": true, "cmd": {"22": "2109"}, "freq": 1,
+{ "hdr": "787", "rax": "7C7", "cmd": {"22": "2109"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MCU_TMCU_MOTOR_T_1", "path": "Drivetrain", "fmt": { "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Motor temperature"}
   ]},
-{ "hdr": "787", "rax": "7C7", "dbg": true, "cmd": {"22": "2110"}, "freq": 1,
+{ "hdr": "787", "rax": "7C7", "cmd": {"22": "2110"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MCU_TMCU_MOTOR_SPEED", "path": "Drivetrain", "fmt": { "len": 16, "max": 32767, "sign": true, "unit": "rpm" }, "name": "Motor speed"}
   ]},
-{ "hdr": "787", "rax": "7C7", "dbg": true, "cmd": {"22": "2111"}, "freq": 1,
+{ "hdr": "787", "rax": "7C7", "cmd": {"22": "2111"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MCU_TMCU_MOTOR_T_2", "path": "Drivetrain", "fmt": { "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Motor winding temperature"}
   ]},
-{ "hdr": "787", "rax": "7C7", "dbg": true, "cmd": {"22": "2304"}, "freq": 1,
+{ "hdr": "787", "rax": "7C7", "cmd": {"22": "2304"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MCU_GMCU_TORQUE_MAX", "path": "Drivetrain", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Torque maximum, GMCU"}
   ]},
-{ "hdr": "787", "rax": "7C7", "dbg": true, "cmd": {"22": "2305"}, "freq": 1,
+{ "hdr": "787", "rax": "7C7", "cmd": {"22": "2305"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MCU_GMCU_TORQUE_MIN", "path": "Drivetrain", "fmt": { "len": 16, "max": 64512, "add": -1023, "unit": "newtonMeters" }, "name": "Torque minimum, GMCU"}
   ]},
@@ -65,83 +65,7 @@
   "signals": [
     {"id": "JOLIONHEV_MCU_GMCU_TORQUE_ACT", "path": "Drivetrain", "fmt": { "len": 16, "max": 64512, "add": -1023, "unit": "newtonMeters" }, "name": "Torque actual, GMCU"}
   ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E006"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_PACK_VOLTAGE", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "HV battery voltage", "suggestedMetric": "tractionBatteryVoltage"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E007"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_TOTAL_CELL_VOLTAGES", "path": "Battery", "fmt": { "len": 16, "max": 65536, "min": 1, "add": 1, "unit": "volts" }, "name": "Cell voltages, total"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E008"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_CELL_VOLTAGE_MAX", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "millivolts" }, "name": "Cell voltage, maximum"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E009"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_CELL_VOLTAGE_MIN", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "millivolts" }, "name": "Cell voltage, minimum"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E00A"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_MAX_CELL_VOLTAGE_POSITION", "path": "Battery", "fmt": { "len": 8, "max": 256, "min": 1, "add": 1, "unit": "scalar" }, "name": "Cell position, maximum voltage"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E00B"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_MIN_CELL_VOLTAGE_POSITION", "path": "Battery", "fmt": { "len": 8, "max": 256, "min": 1, "add": 1, "unit": "scalar" }, "name": "Cell position, minimum voltage"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E088"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_MODULE_T_MAXIMUM", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Module temperature, maximum"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E089"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_MODULE_T_MINIMUM", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Module temperature, minimum"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E0A1"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_MODULE_T_AVERAGE", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Module temperature, average"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E0A4"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_BUS_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 11907, "min": -1200, "div": 5, "add": -1200, "unit": "amps" }, "name": "Battery current, bus"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E0C6"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_PACK_DISCHARGE_CURRENT_LIMIT", "path": "Battery", "fmt": { "len": 16, "max": 11907, "min": -1200, "div": 5, "add": -1200, "unit": "amps" }, "name": "Discharge current limit, pack"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E0C8"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_PACK_RECHARGE_CURRENT_LIMIT", "path": "Battery", "fmt": { "len": 16, "max": 11907, "min": -1200, "div": 5, "add": -1200, "unit": "amps" }, "name": "Recharge current limit, pack"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E0DD"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_LAST_SLEEP_DURATION", "path": "Battery", "fmt": { "len": 32, "max": 4294967295, "unit": "seconds" }, "name": "Sleep duration, last"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E0E4"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_PACK_LOOP_INLET_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Coolant inlet temperature, pack"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E0F1"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_MAX_CELL_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "Cell state of charge, maximum"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E0F2"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_MIN_CELL_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "Cell state of charge, minimum"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E0F4"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_BATT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E0F5"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_PACK_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "State of health", "suggestedMetric": "stateOfHealth"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E0F6"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_BMS_PACK_SOE", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilowattHours" }, "name": "State of energy", "suggestedMetric": "tractionBatteryCapacity"}
-  ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E114"}, "freq": 1,
+{ "hdr": "78B", "fcm1": true, "dbg": true, "cmd": {"22": "E114"}, "freq": 1,
   "signals": [
     {"id": "JOLIONHEV_BMS_CELL_01", "path": "Battery", "fmt": {             "len": 16, "max": 5000, "unit": "millivolts" }, "name": "Cell voltage, cell 1"},
     {"id": "JOLIONHEV_BMS_CELL_02", "path": "Battery", "fmt": {"bix": 16,   "len": 16, "max": 5000, "unit": "millivolts" }, "name": "Cell voltage, cell 2"},
@@ -236,6 +160,82 @@
     {"id": "JOLIONHEV_BMS_CELL_91", "path": "Battery", "fmt": {"bix": 1440, "len": 16, "max": 5000, "unit": "millivolts" }, "name": "Cell voltage, cell 91"},
     {"id": "JOLIONHEV_BMS_CELL_92", "path": "Battery", "fmt": {"bix": 1456, "len": 16, "max": 5000, "unit": "millivolts" }, "name": "Cell voltage, cell 92"}
   ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E006"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_PACK_VOLTAGE", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "HV battery voltage", "suggestedMetric": "tractionBatteryVoltage"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E007"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_TOTAL_CELL_VOLTAGES", "path": "Battery", "fmt": { "len": 16, "max": 65536, "min": 1, "add": 1, "unit": "volts" }, "name": "Cell voltages, total"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E008"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_CELL_VOLTAGE_MAX", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "millivolts" }, "name": "Cell voltage, maximum"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E009"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_CELL_VOLTAGE_MIN", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "millivolts" }, "name": "Cell voltage, minimum"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E00A"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_MAX_CELL_VOLTAGE_POSITION", "path": "Battery", "fmt": { "len": 8, "max": 256, "min": 1, "add": 1, "unit": "scalar" }, "name": "Cell position, maximum voltage"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E00B"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_MIN_CELL_VOLTAGE_POSITION", "path": "Battery", "fmt": { "len": 8, "max": 256, "min": 1, "add": 1, "unit": "scalar" }, "name": "Cell position, minimum voltage"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E088"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_MODULE_T_MAXIMUM", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Module temperature, maximum"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E089"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_MODULE_T_MINIMUM", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Module temperature, minimum"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E0A1"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_MODULE_T_AVERAGE", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Module temperature, average"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E0A4"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_BUS_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 11907, "min": -1200, "div": 5, "add": -1200, "unit": "amps" }, "name": "Battery current, bus"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E0C6"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_PACK_DISCHARGE_CURRENT_LIMIT", "path": "Battery", "fmt": { "len": 16, "max": 11907, "min": -1200, "div": 5, "add": -1200, "unit": "amps" }, "name": "Discharge current limit, pack"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E0C8"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_PACK_RECHARGE_CURRENT_LIMIT", "path": "Battery", "fmt": { "len": 16, "max": 11907, "min": -1200, "div": 5, "add": -1200, "unit": "amps" }, "name": "Recharge current limit, pack"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E0DD"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_LAST_SLEEP_DURATION", "path": "Battery", "fmt": { "len": 32, "max": 4294967295, "unit": "seconds" }, "name": "Sleep duration, last"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E0E4"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_PACK_LOOP_INLET_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Coolant inlet temperature, pack"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E0F1"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_MAX_CELL_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "Cell state of charge, maximum"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E0F2"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_MIN_CELL_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "Cell state of charge, minimum"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E0F4"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_BATT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E0F5"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_PACK_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "State of health", "suggestedMetric": "stateOfHealth"}
+  ]},
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E0F6"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JOLIONHEV_BMS_PACK_SOE", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilowattHours" }, "name": "State of energy", "suggestedMetric": "tractionBatteryCapacity"}
+  ]},
 { "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E115"}, "freq": 1,
   "signals": [
     {"id": "JOLIONHEV_BMS_MODULE_1_T", "path": "Battery", "fmt": {           "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Module temperature, module 1"},
@@ -245,121 +245,113 @@
     {"id": "JOLIONHEV_BMS_MODULE_5_T", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Module temperature, module 5"},
     {"id": "JOLIONHEV_BMS_MODULE_6_T", "path": "Battery", "fmt": {"bix": 40, "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Module temperature, module 6"}
   ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E13D"}, "freq": 1,
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E13D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_BMS_PACK_2S_DISCHARGE_POWER_LIMIT", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "kilowatts" }, "name": "Discharge power limit, pack, 2 seconds"}
   ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E13E"}, "freq": 1,
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E13E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_BMS_PACK_10S_DISCHARGE_POWER_LIMIT", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "kilowatts" }, "name": "Discharge power limit, pack, 10 seconds"}
   ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E13F"}, "freq": 1,
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E13F"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_BMS_PACK_2S_RECHARGE_POWER_LIMIT", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "kilowatts" }, "name": "Recharge power limit, pack, 2 seconds"}
   ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E140"}, "freq": 1,
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E140"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_BMS_PACK_10S_RECHARGE_POWER_LIMIT", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "kilowatts" }, "name": "Recharge power limit, pack, 10 seconds"}
   ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E15B"}, "freq": 1,
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E15B"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_BMS_PACK_ACCUMULATED_CHARGE_1", "path": "Battery", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Accumulated charge, pack, counter 1"}
   ]},
-{ "hdr": "78B", "rax": "7CB", "dbg": true, "cmd": {"22": "E15C"}, "freq": 1,
+{ "hdr": "78B", "rax": "7CB", "cmd": {"22": "E15C"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_BMS_PACK_ACCUMULATED_CHARGE_2", "path": "Battery", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Accumulated charge, pack, counter 2"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0107"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0107"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 1262.793795, "min": -273.15, "mul": 0.023437, "add": -273.15, "unit": "celsius" }, "name": "Oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "010F"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "010F"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_BOOST_PRESSURE_ACTUAL", "path": "Engine", "fmt": { "len": 16, "max": 511.9921875, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure, actual"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0112"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0112"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_BOOST_PRESSURE_TARGET", "path": "Engine", "fmt": { "len": 16, "max": 511.9921875, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure, target"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0113"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0113"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_TURBOCHARGER_INLET_PRESSURE", "path": "Engine", "fmt": { "len": 16, "max": 511.9921875, "div": 128, "unit": "kilopascal" }, "name": "Turbocharger inlet pressure"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0114"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0114"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_TURBOCHARGER_INLET_T", "path": "Engine", "fmt": { "len": 16, "max": 1262.793795, "min": -273.15, "mul": 0.023437, "add": -273.15, "unit": "celsius" }, "name": "Turbocharger inlet temperature"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0132"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0132"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear position"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0152"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0152"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_INTAKE_VVT_ACTUAL", "path": "Engine", "fmt": { "len": 16, "max": 511.1652, "min": -511.1808, "mul": 156, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Valve timing opening, intake, actual"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0154"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0154"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_INTAKE_VVT_TARGET", "path": "Engine", "fmt": { "len": 16, "max": 255.5, "min": -255.5, "mul": 78, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Valve timing opening, intake, target"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0170"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0170"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_KNOCK_RETARD_CYL_1", "path": "Engine", "fmt": { "len": 8, "max": 95.25, "min": -96, "mul": 3, "div": 4, "sign": true, "unit": "degrees" }, "name": "Knock retard, cylinder 1"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0171"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0171"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_KNOCK_RETARD_CYL_2", "path": "Engine", "fmt": { "len": 8, "max": 95.25, "min": -96, "mul": 3, "div": 4, "sign": true, "unit": "degrees" }, "name": "Knock retard, cylinder 2"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0172"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0172"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_KNOCK_RETARD_CYL_3", "path": "Engine", "fmt": { "len": 8, "max": 95.25, "min": -96, "mul": 3, "div": 4, "sign": true, "unit": "degrees" }, "name": "Knock retard, cylinder 3"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0173"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0173"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_KNOCK_RETARD_CYL_4", "path": "Engine", "fmt": { "len": 8, "max": 95.25, "min": -96, "mul": 3, "div": 4, "sign": true, "unit": "degrees" }, "name": "Knock retard, cylinder 4"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0174"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0174"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_KNOCK_SENSOR_VOLTAGE_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "Knock sensor voltage, cylinder 1"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0175"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0175"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_KNOCK_SENSOR_VOLTAGE_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "Knock sensor voltage, cylinder 2"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0176"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0176"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_KNOCK_SENSOR_VOLTAGE_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "Knock sensor voltage, cylinder 3"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0177"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0177"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_KNOCK_SENSOR_VOLTAGE_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "Knock sensor voltage, cylinder 4"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "017F"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "017F"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MISFIRES_TOTAL", "path": "Engine.Misfires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, total count"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0180"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0180"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MISFIRES_CYL_1", "path": "Engine.Misfires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0181"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0181"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MISFIRES_CYL_3", "path": "Engine.Misfires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 3"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0182"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0182"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MISFIRES_CYL_4", "path": "Engine.Misfires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0183"}, "freq": 1,
+{ "hdr": "7E0", "cmd": {"22": "0183"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_MISFIRES_CYL_2", "path": "Engine.Misfires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1611"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_TURBOCHARGER_OPENING_TARGET", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 78, "div": 10000, "unit": "percent" }, "name": "Turbocharger opening, target"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1612"}, "freq": 1,
-  "signals": [
-    {"id": "JOLIONHEV_TURBOCHARGER_OPENING_ACTUAL", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 78, "div": 10000, "unit": "percent" }, "name": "Turbocharger opening, actual"}
   ]}
 ]
 }
