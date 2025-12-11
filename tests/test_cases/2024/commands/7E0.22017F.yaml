@@ -1,5 +1,0 @@
-command_id: 7E0.22017F
-test_cases:
-- expected_values:
-    JOLIONHEV_MISFIRES_TOTAL: 0
-  response: 7E80562017F0000
