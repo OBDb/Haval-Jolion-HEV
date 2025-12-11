@@ -1,0 +1,23 @@
+command_id: 787.7C7.221111
+test_cases:
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_2: 16
+  response: 7C70462111138
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_2: 20
+  response: 7C7046211113C
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_2: 21
+  response: 7C7046211113D
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_2: 22
+  response: 7C7046211113E
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_2: 23
+  response: 7C7046211113F
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_2: 24
+  response: 7C70462111140
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_2: 25
+  response: 7C70462111141

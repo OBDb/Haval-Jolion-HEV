@@ -1,0 +1,29 @@
+command_id: 7E0.220152
+test_cases:
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_ACTUAL: 24.1332
+  response: 7E805620152060B
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_ACTUAL: 24.6168
+  response: 7E805620152062A
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_ACTUAL: 62.2596
+  response: 7E8056201520F97
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_ACTUAL: 62.3532
+  response: 7E8056201520F9D
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_ACTUAL: 62.5248
+  response: 7E8056201520FA8
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_ACTUAL: 62.6184
+  response: 7E8056201520FAE
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_ACTUAL: 62.6652
+  response: 7E8056201520FB1
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_ACTUAL: 62.79
+  response: 7E8056201520FB9
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_ACTUAL: 63.8976
+  response: '7E8056201521000'

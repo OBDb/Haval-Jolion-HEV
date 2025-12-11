@@ -1,0 +1,8 @@
+command_id: 787.7C7.222108
+test_cases:
+- expected_values:
+    JOLIONHEV_MCU_TMCU_INVERTOR_T: 18
+  response: 7C7046221083A
+- expected_values:
+    JOLIONHEV_MCU_TMCU_INVERTOR_T: 48
+  response: 7C70462210858

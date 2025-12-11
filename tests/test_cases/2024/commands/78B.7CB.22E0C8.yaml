@@ -1,0 +1,8 @@
+command_id: 78B.7CB.22E0C8
+test_cases:
+- expected_values:
+    JOLIONHEV_BMS_PACK_RECHARGE_CURRENT_LIMIT: -182.2
+  response: 7CB0562E0C813E1
+- expected_values:
+    JOLIONHEV_BMS_PACK_RECHARGE_CURRENT_LIMIT: -122.4
+  response: 7CB0562E0C8150C

@@ -1,0 +1,5 @@
+command_id: 7E0.220171
+test_cases:
+- expected_values:
+    JOLIONHEV_KNOCK_RETARD_CYL_2: 0
+  response: '7E80462017100'

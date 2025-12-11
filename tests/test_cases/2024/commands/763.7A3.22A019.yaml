@@ -1,0 +1,26 @@
+command_id: 763.7A3.22A019
+test_cases:
+- expected_values:
+    JOLIONHEV_HVAC_CABIN_T_FRONT: 17.5
+  response: 7A30562A01901DB
+- expected_values:
+    JOLIONHEV_HVAC_CABIN_T_FRONT: 18
+  response: 7A30562A01901E0
+- expected_values:
+    JOLIONHEV_HVAC_CABIN_T_FRONT: 18.5
+  response: 7A30562A01901E5
+- expected_values:
+    JOLIONHEV_HVAC_CABIN_T_FRONT: 19
+  response: 7A30562A01901EA
+- expected_values:
+    JOLIONHEV_HVAC_CABIN_T_FRONT: 23
+  response: 7A30562A0190212
+- expected_values:
+    JOLIONHEV_HVAC_CABIN_T_FRONT: 23.5
+  response: 7A30562A0190217
+- expected_values:
+    JOLIONHEV_HVAC_CABIN_T_FRONT: 24
+  response: 7A30562A019021C
+- expected_values:
+    JOLIONHEV_HVAC_CABIN_T_FRONT: 24.5
+  response: 7A30562A0190221
