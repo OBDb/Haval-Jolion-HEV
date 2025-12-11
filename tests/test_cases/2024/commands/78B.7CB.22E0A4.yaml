@@ -1,0 +1,8 @@
+command_id: 78B.7CB.22E0A4
+test_cases:
+- expected_values:
+    JOLIONHEV_BMS_BUS_CURRENT: -9.4
+  response: 7CB0562E0A41741
+- expected_values:
+    JOLIONHEV_BMS_BUS_CURRENT: 6.4
+  response: 7CB0562E0A41790

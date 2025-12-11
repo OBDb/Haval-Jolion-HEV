@@ -1,0 +1,8 @@
+command_id: 78B.7CB.22E140
+test_cases:
+- expected_values:
+    JOLIONHEV_BMS_PACK_10S_RECHARGE_POWER_LIMIT: 34.6
+  response: 7CB0562E14000AD
+- expected_values:
+    JOLIONHEV_BMS_PACK_10S_RECHARGE_POWER_LIMIT: 46.6
+  response: 7CB0562E14000E9

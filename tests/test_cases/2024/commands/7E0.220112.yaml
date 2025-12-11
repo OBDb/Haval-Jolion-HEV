@@ -1,0 +1,5 @@
+command_id: 7E0.220112
+test_cases:
+- expected_values:
+    JOLIONHEV_BOOST_PRESSURE_TARGET: 0
+  response: '7E8056201120000'

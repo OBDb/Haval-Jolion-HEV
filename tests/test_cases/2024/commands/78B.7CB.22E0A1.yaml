@@ -1,0 +1,8 @@
+command_id: 78B.7CB.22E0A1
+test_cases:
+- expected_values:
+    JOLIONHEV_BMS_MODULE_T_AVERAGE: 17
+  response: 7CB0462E0A139
+- expected_values:
+    JOLIONHEV_BMS_MODULE_T_AVERAGE: 18
+  response: 7CB0462E0A13A
