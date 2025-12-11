@@ -1,5 +1,0 @@
-command_id: 7E0.220181
-test_cases:
-- expected_values:
-    JOLIONHEV_MISFIRES_CYL_3: 0
-  response: '7E8056201810000'

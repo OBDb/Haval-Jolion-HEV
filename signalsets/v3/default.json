@@ -333,23 +333,23 @@
   "signals": [
     {"id": "JOLIONHEV_KNOCK_SENSOR_VOLTAGE_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "Knock sensor voltage, cylinder 4"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "017F"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "017F"}, "freq": 1,
   "signals": [
     {"id": "JOLIONHEV_MISFIRES_TOTAL", "path": "Engine.Misfires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, total count"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0180"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0180"}, "freq": 1,
   "signals": [
     {"id": "JOLIONHEV_MISFIRES_CYL_1", "path": "Engine.Misfires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0181"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0181"}, "freq": 1,
   "signals": [
     {"id": "JOLIONHEV_MISFIRES_CYL_3", "path": "Engine.Misfires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 3"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0182"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0182"}, "freq": 1,
   "signals": [
     {"id": "JOLIONHEV_MISFIRES_CYL_4", "path": "Engine.Misfires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0183"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0183"}, "freq": 1,
   "signals": [
     {"id": "JOLIONHEV_MISFIRES_CYL_2", "path": "Engine.Misfires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"}
   ]}
