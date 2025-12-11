@@ -1,0 +1,8 @@
+command_id: 7E0.220177
+test_cases:
+- expected_values:
+    JOLIONHEV_KNOCK_SENSOR_VOLTAGE_CYL_4: 0.00687
+  response: 7E805620177005A
+- expected_values:
+    JOLIONHEV_KNOCK_SENSOR_VOLTAGE_CYL_4: 0.5005
+  response: 7E80562017719A0

@@ -1,0 +1,8 @@
+command_id: 78B.7CB.22E0F1
+test_cases:
+- expected_values:
+    JOLIONHEV_BMS_MAX_CELL_SOC: 50.1
+  response: 7CB0562E0F101F5
+- expected_values:
+    JOLIONHEV_BMS_MAX_CELL_SOC: 56.4
+  response: 7CB0562E0F10234

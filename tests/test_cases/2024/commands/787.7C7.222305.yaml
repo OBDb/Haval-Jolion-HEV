@@ -1,0 +1,11 @@
+command_id: 787.7C7.222305
+test_cases:
+- expected_values:
+    JOLIONHEV_MCU_GMCU_TORQUE_MIN: 0
+  response: 7C705622305039A
+- expected_values:
+    JOLIONHEV_MCU_GMCU_TORQUE_MIN: 0
+  response: 7C70562230503FE
+- expected_values:
+    JOLIONHEV_MCU_GMCU_TORQUE_MIN: 0
+  response: 7C70562230503FF

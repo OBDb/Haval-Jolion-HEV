@@ -1,0 +1,8 @@
+command_id: 78B.7CB.22E088
+test_cases:
+- expected_values:
+    JOLIONHEV_BMS_MODULE_T_MAXIMUM: 18
+  response: 7CB0462E0883A
+- expected_values:
+    JOLIONHEV_BMS_MODULE_T_MAXIMUM: 19
+  response: 7CB0462E0883B

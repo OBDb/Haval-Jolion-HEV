@@ -1,0 +1,5 @@
+command_id: 78B.7CB.22E0DD
+test_cases:
+- expected_values:
+    JOLIONHEV_BMS_LAST_SLEEP_DURATION: 1375
+  response: 7CB0762E0DD0000055F
