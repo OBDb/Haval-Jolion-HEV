@@ -1,5 +1,8 @@
 command_id: 78B.7CB.22E009
 test_cases:
 - expected_values:
-    JOLIONHEV_BMS_CELL_VOLTAGE_MIN: 3620
-  response: 7CB0562E0090E24
+    JOLIONHEV_BMS_CELL_VOLTAGE_MIN: 3645
+  response: 7CB0562E0090E3D
+- expected_values:
+    JOLIONHEV_BMS_CELL_VOLTAGE_MIN: 3821
+  response: 7CB0562E0090EED
