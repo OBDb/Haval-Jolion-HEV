@@ -1,5 +1,8 @@
 command_id: 78B.7CB.22E0E4
 test_cases:
 - expected_values:
-    JOLIONHEV_BMS_PACK_LOOP_INLET_T: 21
-  response: 7CB0462E0E43D
+    JOLIONHEV_BMS_PACK_LOOP_INLET_T: 17
+  response: 7CB0462E0E439
+- expected_values:
+    JOLIONHEV_BMS_PACK_LOOP_INLET_T: 18
+  response: 7CB0462E0E43A
