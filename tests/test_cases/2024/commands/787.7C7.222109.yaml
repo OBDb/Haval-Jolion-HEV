@@ -1,8 +1,5 @@
 command_id: 787.7C7.222109
 test_cases:
 - expected_values:
-    JOLIONHEV_MCU_TMCU_MOTOR_T_1: 16
-  response: 7C70462210938
-- expected_values:
-    JOLIONHEV_MCU_TMCU_MOTOR_T_1: 29
-  response: 7C70462210945
+    JOLIONHEV_MCU_TMCU_MOTOR_T_1: 32
+  response: 7C70462210948
