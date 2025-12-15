@@ -1,4 +1,4 @@
-command_id: 7E0.220180
+command_id: 7E0.7E8.220180
 test_cases:
 - expected_values:
     JOLIONHEV_MISFIRES_CYL_1: 0

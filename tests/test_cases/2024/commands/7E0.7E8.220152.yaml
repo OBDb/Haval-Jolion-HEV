@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220152
+test_cases:
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_ACTUAL: 62.2596
+  response: 7E8056201520F97
