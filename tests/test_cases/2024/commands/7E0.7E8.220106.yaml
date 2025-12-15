@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220106
+test_cases:
+- expected_values:
+    JOLIONHEV_FUEL_LEVEL_LITERS: 46
+  response: 7E80562010601CC
