@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220107
+test_cases:
+- expected_values:
+    JOLIONHEV_OIL_T: -203.96398
+  response: 7E8056201070B88
+- expected_values:
+    JOLIONHEV_OIL_T: -189.2221
+  response: 7E8056201070DFD
+- expected_values:
+    JOLIONHEV_OIL_T: -189.15179
+  response: 7E8056201070E00

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220114
+test_cases:
+- expected_values:
+    JOLIONHEV_TURBOCHARGER_INLET_T: 498.13823
+  response: 7E805620114808D

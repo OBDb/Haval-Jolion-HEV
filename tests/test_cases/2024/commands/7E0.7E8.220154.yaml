@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220154
+test_cases:
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_TARGET: 31.2858
+  response: 7E8056201540FAB
