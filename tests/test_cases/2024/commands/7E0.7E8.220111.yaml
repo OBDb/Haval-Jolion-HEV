@@ -7,5 +7,5 @@ test_cases:
     JOLIONHEV_FUEL_FLOW: 2.19299
   response: 7E80562011101FF
 - expected_values:
-    JOLIONHEV_FUEL_FLOW: 10.02508
-  response: '7E8056201110920'
+    JOLIONHEV_FUEL_FLOW: 16.19206
+  response: 7E8056201110EBD
