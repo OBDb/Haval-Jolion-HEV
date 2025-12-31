@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     JOLIONHEV_BMS_PACK_SOE: 0.6
   response: 7CB0562E0F60006
+- expected_values:
+    JOLIONHEV_BMS_PACK_SOE: 0.8
+  response: 7CB0562E0F60008
