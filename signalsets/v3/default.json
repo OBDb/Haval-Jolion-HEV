@@ -151,7 +151,7 @@
   "signals": [
     {"id": "JOLIONHEV_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Vehicle odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0106"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0106"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_FUEL_LEVEL_LITERS", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel level, liters", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -163,7 +163,7 @@
   "signals": [
     {"id": "JOLIONHEV_BOOST_PRESSURE_ACTUAL", "path": "Engine", "fmt": { "len": 16, "max": 511.9921875, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0111"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0111"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_FUEL_FLOW", "path": "Fuel", "fmt": { "len": 16, "max": 281.2473846, "mul": 0.00429156, "unit": "liters" }, "name": "Fuel flow"}
   ]},
@@ -191,11 +191,11 @@
   "signals": [
     {"id": "JOLIONHEV_INTAKE_VVT_TARGET", "path": "Engine", "fmt": { "len": 16, "max": 255.5, "min": -255.5, "mul": 78, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Valve timing opening, intake, target"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "016A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "016A"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_BOOST_PRESSURE_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 511.9921875, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "016D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "016D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_INJECTION_PULSE_WIDTH", "path": "Engine", "fmt": { "len": 32, "max": 4294967.2949999999, "div": 1000, "unit": "milliseconds" }, "name": "Injection pulse width"}
   ]},
@@ -319,7 +319,7 @@
   "signals": [
     {"id": "JOLIONHEV_BATTERY_VOLTAGE", "path": "Battery", "fmt": { "len": 8, "max": 31.875, "mul": 12.5, "div": 100, "unit": "volts" }, "name": "Battery voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "210C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "210C"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_AC_PRESSURE_HVAC2", "path": "Climate", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "mul": 2, "div": 10, "sign": true, "unit": "kilopascal" }, "name": "A/C pressure, enhanced"}
   ]},
