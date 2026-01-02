@@ -1,8 +1,11 @@
 command_id: 78B.7CB.22E0F4
 test_cases:
 - expected_values:
-    JOLIONHEV_BMS_BATT_SOC: 48.9
-  response: 7CB0562E0F401E9
+    JOLIONHEV_BMS_BATT_SOC: 43
+  response: 7CB0562E0F401AE
 - expected_values:
-    JOLIONHEV_BMS_BATT_SOC: 55.3
-  response: 7CB0562E0F40229
+    JOLIONHEV_BMS_BATT_SOC: 51
+  response: 7CB0562E0F401FE
+- expected_values:
+    JOLIONHEV_BMS_BATT_SOC: 51.2
+  response: 7CB0562E0F40200
