@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22210C
+test_cases:
+- expected_values:
+    JOLIONHEV_AC_PRESSURE_HVAC2: 0
+  response: 7E80562210C0000
