@@ -4,8 +4,8 @@ test_cases:
     JOLIONHEV_OIL_T: -208.25295
   response: 7E8056201070AD1
 - expected_values:
-    JOLIONHEV_OIL_T: -201.17497
-  response: 7E8056201070BFF
+    JOLIONHEV_OIL_T: -207.17484
+  response: 7E8056201070AFF
 - expected_values:
     JOLIONHEV_OIL_T: -201.15154
   response: 7E8056201070C00
