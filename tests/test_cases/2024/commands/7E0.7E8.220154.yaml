@@ -1,5 +1,20 @@
 command_id: 7E0.7E8.220154
 test_cases:
 - expected_values:
+    JOLIONHEV_INTAKE_VVT_TARGET: 12.1134
+  response: '7E8056201540611'
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_TARGET: 12.129
+  response: '7E8056201540613'
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_TARGET: 28.0254
+  response: 7E8056201540E09
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_TARGET: 31.2624
+  response: 7E8056201540FA8
+- expected_values:
     JOLIONHEV_INTAKE_VVT_TARGET: 31.2858
   response: 7E8056201540FAB
+- expected_values:
+    JOLIONHEV_INTAKE_VVT_TARGET: 31.3326
+  response: 7E8056201540FB1
