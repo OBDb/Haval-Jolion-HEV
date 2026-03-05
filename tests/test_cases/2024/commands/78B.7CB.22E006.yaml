@@ -1,8 +1,11 @@
 command_id: 78B.7CB.22E006
 test_cases:
 - expected_values:
-    JOLIONHEV_BMS_PACK_VOLTAGE: 335.9
-  response: 7CB0562E0060D1F
+    JOLIONHEV_BMS_PACK_VOLTAGE: 331.6
+  response: 7CB0562E0060CF4
 - expected_values:
-    JOLIONHEV_BMS_PACK_VOLTAGE: 353.1
-  response: 7CB0562E0060DCB
+    JOLIONHEV_BMS_PACK_VOLTAGE: 332.7
+  response: 7CB0562E0060CFF
+- expected_values:
+    JOLIONHEV_BMS_PACK_VOLTAGE: 332.8
+  response: 7CB0562E0060D00
