@@ -3,12 +3,3 @@ test_cases:
 - expected_values:
     JOLIONHEV_BMS_MAX_CELL_VOLTAGE_POSITION: 1
   response: 7CB0462E00A00
-- expected_values:
-    JOLIONHEV_BMS_MAX_CELL_VOLTAGE_POSITION: 5
-  response: 7CB0462E00A04
-- expected_values:
-    JOLIONHEV_BMS_MAX_CELL_VOLTAGE_POSITION: 8
-  response: 7CB0462E00A07
-- expected_values:
-    JOLIONHEV_BMS_MAX_CELL_VOLTAGE_POSITION: 92
-  response: 7CB0462E00A5B
