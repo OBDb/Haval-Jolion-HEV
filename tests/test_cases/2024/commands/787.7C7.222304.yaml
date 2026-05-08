@@ -1,5 +1,8 @@
 command_id: 787.7C7.222304
 test_cases:
 - expected_values:
+    JOLIONHEV_MCU_GMCU_TORQUE_MAX: 0
+  response: 7C7056223040000
+- expected_values:
     JOLIONHEV_MCU_GMCU_TORQUE_MAX: 100
   response: 7C7056223040064
