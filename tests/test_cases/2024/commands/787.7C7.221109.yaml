@@ -1,5 +1,23 @@
 command_id: 787.7C7.221109
 test_cases:
 - expected_values:
-    JOLIONHEV_MCU_GMCU_MOTOR_T_1: 30
-  response: 7C70462110946
+    JOLIONHEV_MCU_GMCU_MOTOR_T_1: 16
+  response: 7C70462110938
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_1: 20
+  response: 7C7046211093C
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_1: 21
+  response: 7C7046211093D
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_1: 22
+  response: 7C7046211093E
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_1: 23
+  response: 7C7046211093F
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_1: 24
+  response: 7C70462110940
+- expected_values:
+    JOLIONHEV_MCU_GMCU_MOTOR_T_1: 25
+  response: 7C70462110941
