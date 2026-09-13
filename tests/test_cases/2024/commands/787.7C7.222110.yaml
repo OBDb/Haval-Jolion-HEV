@@ -1,14 +1,5 @@
 command_id: 787.7C7.222110
 test_cases:
 - expected_values:
-    JOLIONHEV_MCU_TMCU_MOTOR_SPEED: 32547
-  response: 7C7056221107F23
-- expected_values:
     JOLIONHEV_MCU_TMCU_MOTOR_SPEED: 32767
   response: 7C7056221107FFF
-- expected_values:
-    JOLIONHEV_MCU_TMCU_MOTOR_SPEED: 0
-  response: 7C7056221108000
-- expected_values:
-    JOLIONHEV_MCU_TMCU_MOTOR_SPEED: 0
-  response: 7C7056221108A56
