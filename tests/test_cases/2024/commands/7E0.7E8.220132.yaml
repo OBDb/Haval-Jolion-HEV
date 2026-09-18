@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     JOLIONHEV_GEAR: 1
   response: '7E80462013201'
+- expected_values:
+    JOLIONHEV_GEAR: 7
+  response: '7E80462013207'
