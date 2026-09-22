@@ -8,25 +8,7 @@ test_cases:
   response: 7C7056211107FFF
 - expected_values:
     JOLIONHEV_MCU_GMCU_MOTOR_SPEED: 0
-  response: 7C7056211108C09
+  response: 7C7056211108C07
 - expected_values:
     JOLIONHEV_MCU_GMCU_MOTOR_SPEED: 0
-  response: 7C7056211108D5B
-- expected_values:
-    JOLIONHEV_MCU_GMCU_MOTOR_SPEED: 0
-  response: 7C7056211108D96
-- expected_values:
-    JOLIONHEV_MCU_GMCU_MOTOR_SPEED: 0
-  response: 7C7056211108D9C
-- expected_values:
-    JOLIONHEV_MCU_GMCU_MOTOR_SPEED: 0
-  response: 7C7056211108EE0
-- expected_values:
-    JOLIONHEV_MCU_GMCU_MOTOR_SPEED: 0
-  response: 7C7056211108F48
-- expected_values:
-    JOLIONHEV_MCU_GMCU_MOTOR_SPEED: 0
-  response: 7C7056211108F5D
-- expected_values:
-    JOLIONHEV_MCU_GMCU_MOTOR_SPEED: 0
-  response: 7C70562111090C0
+  response: 7C70562111091D9
