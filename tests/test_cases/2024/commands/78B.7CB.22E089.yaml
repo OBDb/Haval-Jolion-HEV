@@ -1,8 +1,8 @@
 command_id: 78B.7CB.22E089
 test_cases:
 - expected_values:
-    JOLIONHEV_BMS_MODULE_T_MINIMUM: 17
-  response: 7CB0462E08939
+    JOLIONHEV_BMS_MODULE_T_MINIMUM: 19
+  response: 7CB0462E0893B
 - expected_values:
-    JOLIONHEV_BMS_MODULE_T_MINIMUM: 18
-  response: 7CB0462E0893A
+    JOLIONHEV_BMS_MODULE_T_MINIMUM: 22
+  response: 7CB0462E0893E
