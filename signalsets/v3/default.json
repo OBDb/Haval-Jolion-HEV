@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "763", "rax": "7A3", "cmd": {"22": "A012"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JOLIONHEV_HVAC_EVAPORATOR_T_FRONT", "path": "Climate", "fmt": { "len": 16, "max": 655.25, "min": -20, "div": 10, "add": -20, "unit": "celsius" }, "name": "Evaporator temperature, front"}
