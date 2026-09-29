@@ -49,6 +49,7 @@ supported_commands_by_ecu:
   - 7DF.0131
   - 7DF.0134
   - 7DF.0142
+  - 7DF.0143
   - 7DF.0144
   - 7DF.0147
   - 7DF.019A
@@ -128,6 +129,7 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 7E1.7E9.0104
   - 7E1.7E9.0105
+  - 7E1.7E9.010C
   - 7E1.7E9.010D
   - 7E1.7E9.0111
   - 7E1.7E9.0142
@@ -208,6 +210,7 @@ unsupported_commands_by_ecu:
   - 7E0.0104:LOAD_PCT
   - 7E0.0105:ECT
   - 7E0.0106:SHRTFT1
+  - 7E0.010C:RPM
   - 7E0.010D:VSS
   - 7E0.0111:TP
   - 7E0.011C:OBDSUP
@@ -216,6 +219,7 @@ unsupported_commands_by_ecu:
   - 7E0.0131:CLR_DIST
   - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - 7E0.0142:VPWR
+  - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
   - 7E0.0147:TP_B
   - 7E0.7E8.22002F:JOLIONHEV_FUEL_LEVEL_INPUT
