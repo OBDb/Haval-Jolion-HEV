@@ -1,32 +1,8 @@
 command_id: 787.7C7.222108
 test_cases:
 - expected_values:
-    JOLIONHEV_MCU_TMCU_INVERTOR_T: 33
-  response: 7C70462210849
+    JOLIONHEV_MCU_TMCU_INVERTOR_T: 18
+  response: 7C7046221083A
 - expected_values:
-    JOLIONHEV_MCU_TMCU_INVERTOR_T: 34
-  response: 7C7046221084A
-- expected_values:
-    JOLIONHEV_MCU_TMCU_INVERTOR_T: 36
-  response: 7C7046221084C
-- expected_values:
-    JOLIONHEV_MCU_TMCU_INVERTOR_T: 37
-  response: 7C7046221084D
-- expected_values:
-    JOLIONHEV_MCU_TMCU_INVERTOR_T: 38
-  response: 7C7046221084E
-- expected_values:
-    JOLIONHEV_MCU_TMCU_INVERTOR_T: 40
-  response: 7C70462210850
-- expected_values:
-    JOLIONHEV_MCU_TMCU_INVERTOR_T: 41
-  response: 7C70462210851
-- expected_values:
-    JOLIONHEV_MCU_TMCU_INVERTOR_T: 42
-  response: 7C70462210852
-- expected_values:
-    JOLIONHEV_MCU_TMCU_INVERTOR_T: 43
-  response: 7C70462210853
-- expected_values:
-    JOLIONHEV_MCU_TMCU_INVERTOR_T: 47
-  response: 7C70462210857
+    JOLIONHEV_MCU_TMCU_INVERTOR_T: 48
+  response: 7C70462210858
