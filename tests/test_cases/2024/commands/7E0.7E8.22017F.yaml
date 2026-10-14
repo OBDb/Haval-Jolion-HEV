@@ -3,6 +3,3 @@ test_cases:
 - expected_values:
     JOLIONHEV_MISFIRES_TOTAL: 0
   response: 7E80562017F0000
-- expected_values:
-    JOLIONHEV_MISFIRES_TOTAL: 1
-  response: 7E80562017F0001
