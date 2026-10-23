@@ -4,8 +4,8 @@ test_cases:
     JOLIONHEV_BMS_MIN_CELL_SOC: 43.6
   response: 7CB0562E0F201B4
 - expected_values:
-    JOLIONHEV_BMS_MIN_CELL_SOC: 45.1
-  response: 7CB0562E0F201C3
+    JOLIONHEV_BMS_MIN_CELL_SOC: 48.1
+  response: 7CB0562E0F201E1
 - expected_values:
     JOLIONHEV_BMS_MIN_CELL_SOC: 53.7
   response: 7CB0562E0F20219

@@ -203,12 +203,15 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   "76C":
   - 76C.220210
+  - 76C.7AC.220210
   "782":
   - '782.226303'
+  - 782.7C2.226303
   "787":
   - 787.7C7.222306
   "78B":
   - 78B.22E114
+  - 78B.7CB.22E114
   - 78B.7CB.22E115
   "7E0":
   - 7E0.0103:FUELSYS1,FUELSYS2
@@ -227,6 +230,8 @@ unsupported_commands_by_ecu:
   - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
   - 7E0.0147:TP_B
+  - 7E0.221611
+  - 7E0.221612
   - 7E0.7E8.22002F:JOLIONHEV_FUEL_LEVEL_INPUT
   - 7E0.7E8.2200A6:JOLIONHEV_ODO
   - 7E0.7E8.2211A0:JOLIONHEV_KNOCK_COUNTER
