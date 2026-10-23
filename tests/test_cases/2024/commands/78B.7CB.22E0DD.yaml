@@ -4,6 +4,9 @@ test_cases:
     JOLIONHEV_BMS_LAST_SLEEP_DURATION: 1168
   response: 7CB0762E0DD00000490
 - expected_values:
+    JOLIONHEV_BMS_LAST_SLEEP_DURATION: 1375
+  response: 7CB0762E0DD0000055F
+- expected_values:
     JOLIONHEV_BMS_LAST_SLEEP_DURATION: 2215
   response: 7CB0762E0DD000008A7
 - expected_values:

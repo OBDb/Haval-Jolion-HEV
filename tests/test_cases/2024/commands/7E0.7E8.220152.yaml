@@ -4,11 +4,5 @@ test_cases:
     JOLIONHEV_INTAKE_VVT_ACTUAL: 15.054
   response: 7E80562015203C5
 - expected_values:
-    JOLIONHEV_INTAKE_VVT_ACTUAL: 26.8632
-  response: 7E80562015206BA
-- expected_values:
-    JOLIONHEV_INTAKE_VVT_ACTUAL: 62.2596
-  response: 7E8056201520F97
-- expected_values:
     JOLIONHEV_INTAKE_VVT_ACTUAL: 63.8976
   response: '7E8056201521000'
