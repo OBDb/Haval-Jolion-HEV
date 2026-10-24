@@ -161,7 +161,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0107"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
-    {"id": "JOLIONHEV_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 1262.793795, "min": -273.15, "mul": 0.023437, "add": -273.15, "unit": "celsius" }, "name": "Oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "JOLIONHEV_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.35, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "010F"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [

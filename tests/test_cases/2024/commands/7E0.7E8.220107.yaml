@@ -1,17 +1,17 @@
 command_id: 7E0.7E8.220107
 test_cases:
 - expected_values:
-    JOLIONHEV_OIL_T: -199.44064
+    JOLIONHEV_OIL_T: 41.35
   response: '7E8 05 62 01 07 0C 49 '
 - expected_values:
-    JOLIONHEV_OIL_T: -208.25295
+    JOLIONHEV_OIL_T: 3.75
   response: 7E8056201070AD1
 - expected_values:
-    JOLIONHEV_OIL_T: -207.17484
+    JOLIONHEV_OIL_T: 8.35
   response: 7E8056201070AFF
 - expected_values:
-    JOLIONHEV_OIL_T: -201.15154
+    JOLIONHEV_OIL_T: 34.05
   response: 7E8056201070C00
 - expected_values:
-    JOLIONHEV_OIL_T: -183.15192
+    JOLIONHEV_OIL_T: 110.85
   response: 7E8056201070F00
